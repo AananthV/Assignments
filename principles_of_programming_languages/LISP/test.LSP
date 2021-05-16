@@ -1,0 +1,75 @@
+(defun max3(a b c)
+  (if (> a b)
+    (if (> a c)
+      a
+      c
+    )
+    (if (> b c)
+      b
+      c
+    )
+  )
+)
+
+(defun isMember(a list)
+  (cond
+        ((null list) NIL)
+        ((equal a (car list)) list)
+        (t (isMember a (cdr list)))
+  )
+)
+
+(defun ulists(list1 list2)
+  (let ((ulist))
+    (do (
+          (l1 (car list1) (setq l1 (car list1)))
+          (l2 (car list2) (setq l2 (car list2)))
+        )
+        ((and (null l1) (null l2)) ulist)
+        (cond ((not (member l1 ulist)) (setq ulist (append ulist (list l1)))))
+        (cond ((not (member l2 ulist)) (setq ulist (append ulist (list l2)))))
+        (setq list1 (cdr list1)
+              list2 (cdr list2)
+        )
+    )
+  )
+)
+
+(defun ilists(list1 list2)
+  (let ((ilist))
+    (do (
+          (l1 (car list1) (setq l1 (car list1)))
+        )
+        ((null l1) ilist)
+        (cond ((member l1 list2) (setq ilist (append ilist (list l1)))))
+        (setq list1 (cdr list1))
+    )
+  )
+)
+
+(defun isSorted(list)
+  (cond ((or (null list) (null (cdr list))) t)
+        ((> (car list) (car (cdr list))) NIL)
+        (t (isSorted(cdr list)))
+  )
+)
+
+(defun bubble(list)
+  (cond ((or (null list) (null (cdr list))) list)
+        ((< (car list) (car (cdr list))) (cons (car list) (bubble (cdr list))))
+        (t (cons (car (cdr list)) (bubble (cons (car list) (cdr (cdr list))))))
+  )
+)
+
+(defun bubble-sort (list)
+  (cond ((or (null list) (null (cdr list))) list)
+        ((isSorted list) list)
+        (t (bubble-sort (bubble list)))
+  )
+)
+
+(defun middle (list)
+  (cond ((or (null list) (null (cdr list))) list)
+        (t (middle (cdr (reverse (cdr list)))))
+  )
+)

@@ -1,0 +1,71 @@
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+Sent ARP Request to 192.168.1.2
+	Hardware Type: 1
+	Protocol Type: 0x800
+	HLEN: 6
+	PLEN: 6
+	Opcode: 1
+	Sender Hardware Address: aa:aa:aa:aa:aa:aa
+	Sender Protocol Address: 192.168.1.1
+	Target Hardware Address: 00:00:00:00:00:00
+	Target Protocol Address: 192.168.1.2
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+Received ARP Message:
+	Hardware Type: 1
+	Protocol Type: 0x800
+	HLEN: 6
+	PLEN: 6
+	Opcode: 1
+	Sender Hardware Address: bb:bb:bb:bb:bb:bb
+	Sender Protocol Address: 192.168.1.2
+	Target Hardware Address: 00:00:00:00:00:00
+	Target Protocol Address: 192.168.1.3
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+Received ARP Message:
+	Hardware Type: 1
+	Protocol Type: 0x800
+	HLEN: 6
+	PLEN: 6
+	Opcode: 2
+	Sender Hardware Address: bb:bb:bb:bb:bb:bb
+	Sender Protocol Address: 192.168.1.2
+	Target Hardware Address: aa:aa:aa:aa:aa:aa
+	Target Protocol Address: 192.168.1.1
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+ARP Table Updated. ARP Table:
+| IP Address 	| MAC Address 		|
+| 192.168.1.2	| bb:bb:bb:bb:bb:bb	|
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+Sent ARP Request to 192.168.1.3
+	Hardware Type: 1
+	Protocol Type: 0x800
+	HLEN: 6
+	PLEN: 6
+	Opcode: 1
+	Sender Hardware Address: aa:aa:aa:aa:aa:aa
+	Sender Protocol Address: 192.168.1.1
+	Target Hardware Address: 00:00:00:00:00:00
+	Target Protocol Address: 192.168.1.3
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+Received ARP Message:
+	Hardware Type: 1
+	Protocol Type: 0x800
+	HLEN: 6
+	PLEN: 6
+	Opcode: 2
+	Sender Hardware Address: cc:cc:cc:cc:cc:cc
+	Sender Protocol Address: 192.168.1.3
+	Target Hardware Address: aa:aa:aa:aa:aa:aa
+	Target Protocol Address: 192.168.1.1
+
+[Node] A | IP: 192.168.1.1 | MAC: aa:aa:aa:aa:aa:aa
+ARP Table Updated. ARP Table:
+| IP Address 	| MAC Address 		|
+| 192.168.1.2	| bb:bb:bb:bb:bb:bb	|
+| 192.168.1.3	| cc:cc:cc:cc:cc:cc	|
+

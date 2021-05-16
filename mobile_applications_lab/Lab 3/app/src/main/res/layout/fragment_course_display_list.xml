@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.example.coursefragment.CourseDisplayFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".CourseDisplayFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll No:"
+            android:textSize="36dp"
+            android:textColor="@android:color/primary_text_dark" />
+
+        <TextView
+            android:id="@+id/roll_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="106118103"
+            android:textSize="36dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@android:color/primary_text_dark"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Courses"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:textColor="@android:color/primary_text_dark"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="4dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/fragment_course_display"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="4dp"
+        android:gravity="center"/>
+
+</LinearLayout>

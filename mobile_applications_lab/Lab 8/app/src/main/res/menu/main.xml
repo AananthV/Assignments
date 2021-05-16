@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_product"
+        android:title="Add Product"
+        android:icon="@drawable/ic_baseline_add_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/view_product"
+        android:title="View Product"
+        android:icon="@drawable/ic_baseline_remove_red_eye_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/edit_product"
+        android:title="Edit Product"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/all_products"
+        android:title="List Products"
+        android:icon="@drawable/ic_baseline_list_24"
+        app:showAsAction="always" />
+</menu>

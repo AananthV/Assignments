@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/help"
+        android:title="Help" />
+    <item android:id="@+id/settings"
+        android:title="Settings" />
+    <item android:id="@+id/exit"
+        android:title="Exit" />
+    <item android:id="@+id/clear_sp"
+        android:title="Clear Shared Preferences" />
+    <item android:id="@+id/control"
+        android:title="Control">
+        <menu>
+            <item android:id="@+id/bluetooth"
+                android:title="Bluetooth" />
+            <item android:id="@+id/brightness"
+                android:title="Brightness">
+                <menu>
+                    <item android:id="@+id/b_inc"
+                        android:title="Increase"/>
+                    <item android:id="@+id/b_dec"
+                        android:title="Decrease"/>
+                </menu>
+            </item>
+            <item android:id="@+id/volume"
+                android:title="Volume">
+                <menu>
+                    <item android:id="@+id/v_inc"
+                        android:title="Increase"/>
+                    <item android:id="@+id/v_dec"
+                        android:title="Decrease"/>
+                </menu>
+            </item>
+            <item android:id="@+id/orientation"
+                android:title="Orientation" />
+        </menu>
+    </item>
+</menu>

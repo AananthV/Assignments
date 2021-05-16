@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Application Development"
+        android:textSize="12pt"
+        android:layout_marginTop="8pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab - 1"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addition of two Numbers"
+        android:fontFamily="@font/dancing_script_semi_bold"
+        android:textSize="20pt"
+        android:layout_marginTop="64pt"
+        android:textColor="@android:color/holo_green_light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16pt">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="+"
+            android:textSize="24pt"
+            android:layout_marginHorizontal="15pt" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="12pt">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number 1"
+                android:inputType="numberDecimal"
+                android:textSize="20pt"
+                android:gravity="end"
+                android:id="@+id/n1"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number 2"
+                android:inputType="numberDecimal"
+                android:textSize="20pt"
+                android:gravity="end"
+                android:id="@+id/n2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8pt">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="="
+            android:textSize="24pt"
+            app:backgroundTint="@android:color/transparent"
+            android:textColor="@android:color/holo_green_light"
+            android:id="@+id/equal_button"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:textSize="20pt"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/answer"
+            android:layout_marginRight="12pt"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done by"
+        android:textSize="10pt"
+        android:layout_marginTop="48pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V. Aananth"
+        android:textSize="12pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="106118103"
+        android:textSize="12pt"
+        android:layout_marginBottom="8pt"/>
+
+</LinearLayout>

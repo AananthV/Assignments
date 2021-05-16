@@ -1,0 +1,18 @@
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+

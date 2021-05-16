@@ -1,0 +1,6 @@
+(defun rds (list)
+  (cond ((or (null list) (null (cdr list))) list)
+        ((member (car list) (cdr list)) (rds (cdr list)))
+        (t (cons (car list) (rds (cdr list))))
+  )
+)

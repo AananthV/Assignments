@@ -1,0 +1,95 @@
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+| ff:ff:ff:ff:ff:ff	| F		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+| ff:ff:ff:ff:ff:ff	| F		|
+| 1a:1a:1a:1a:1a:1a	| G		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+| ff:ff:ff:ff:ff:ff	| F		|
+| 1a:1a:1a:1a:1a:1a	| G		|
+| 1b:1b:1b:1b:1b:1b	| H		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+| ff:ff:ff:ff:ff:ff	| F		|
+| 1a:1a:1a:1a:1a:1a	| G		|
+| 1b:1b:1b:1b:1b:1b	| H		|
+| 1c:1c:1c:1c:1c:1c	| I		|
+
+[Network]
+Routing table updated. Routing table:
+| MAC Address 		| Node 	|
+| aa:aa:aa:aa:aa:aa	| A		|
+| bb:bb:bb:bb:bb:bb	| B		|
+| cc:cc:cc:cc:cc:cc	| C		|
+| dd:dd:dd:dd:dd:dd	| D		|
+| ee:ee:ee:ee:ee:ee	| E		|
+| ff:ff:ff:ff:ff:ff	| F		|
+| 1a:1a:1a:1a:1a:1a	| G		|
+| 1b:1b:1b:1b:1b:1b	| H		|
+| 1c:1c:1c:1c:1c:1c	| I		|
+| 1d:1d:1d:1d:1d:1d	| J		|
+

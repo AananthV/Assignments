@@ -1,0 +1,6 @@
+(defun hcf (a b)
+  (cond ((= a 0) b)
+        ((> a b) (hcf (mod a b) b))
+        (t (hcf (mod b a) a))
+  )
+)
